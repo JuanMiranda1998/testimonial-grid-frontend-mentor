@@ -31,6 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/JuanMiranda1998/testimonial-grid-frontend-mentor)
+- Live Site URL: [Netlify](https://testimonial-grid-juanmiranda.netlify.app/)
 
 
 ## My process

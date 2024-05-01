@@ -103,6 +103,13 @@ function App() {
           </p>
         </article>
       </div>
+      <div className="bg-black text-white text-center text-sm">
+        Challenge by{" "}
+        <a className="text-[#3e52a3]" href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by <a className="text-[#3e52a3]" href="#">Juan Miranda</a>.
+      </div>
     </div>
   )
 }
