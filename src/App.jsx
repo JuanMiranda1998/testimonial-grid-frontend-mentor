@@ -4,11 +4,11 @@ function App() {
 
 
   return (
-    <div className='w-[100lvw] min-h-[100vlh] font-body overflow-hidden bg-[#edf2f8]'>
-      <div className='grid grid-cols-1 gap-6 mx-5 mt-16 mb-6'>
+    <div className='max-w-[100vw] min-h-[100vlh] font-body overflow-hidden bg-[#edf2f8]'>
+      <div className='grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-2 gap-6 mx-5 mt-16 mb-6'>
 
 
-        <article className='px-6 py-8 rounded-lg text-white bg-[#733fc8]'>
+        <article className='lg:col-span-2 lg:row-start-1 lg:row-end-2 px-6 py-8 rounded-lg text-white bg-[#733fc8]'>
           <div className='flex flex-row items-center mb-6'>
             <div className='flex items-center w-10 h-10 mr-4 rounded-full overflow-hidden border-2 border-[#a27edd]'>
               <img src="/images/image-daniel.jpg" alt="" />
@@ -32,7 +32,7 @@ function App() {
         </article>
 
         
-        <article className='px-6 py-8 rounded-lg text-white bg-[#49556b]'>
+        <article className='lg:col-span-1 lg:row-start-1 lg:row-end-2 px-6 py-8 rounded-lg text-white bg-[#49556b]'>
           <div className='flex flex-row items-center mb-6'>
             <div className='flex items-center w-10 h-10 mr-4 rounded-full overflow-hidden border-2 border-[#9ba1ab]'>
               <img src="/images/image-jonathan.jpg" alt="" />
@@ -49,7 +49,7 @@ function App() {
           </p>
         </article>
 
-        <article className='px-6 py-8 rounded-lg text-[#49505b] bg-white shadow-lg'>
+        <article className='lg:col-span-1 lg:row-start-2 lg:row-end-3 px-6 py-8 rounded-lg text-[#49505b] bg-white shadow-lg'>
           <div className='flex flex-row items-center mb-6'>
             <div className='flex items-center w-10 h-10 mr-4 rounded-full overflow-hidden border-2 border-white'>
               <img src="/images/image-jeanette.jpg" alt="" />
@@ -65,7 +65,7 @@ function App() {
             while doing something I love. ”
           </p>
         </article>
-        <article className='px-6 py-8 rounded-lg text-white bg-[#18202d]'>
+        <article className='lg:col-span-2 lg:row-start-2 lg:row-end-3 px-6 py-8 rounded-lg text-white bg-[#18202d]'>
           <div className='flex flex-row items-center mb-6'>
             <div className='flex items-center w-10 h-10 mr-4 rounded-full overflow-hidden border-2 border-[#a27edd]'>
               <img src="/images/image-patrick.jpg" alt="" />
@@ -86,7 +86,7 @@ function App() {
             an incredible community of smart and amazing people. ”
           </p>
         </article>
-        <article className='px-6 py-8 rounded-lg text-[#49505b] bg-white shadow-lg'>
+        <article className='lg:col-span-1 lg:row-start-1 lg:row-end-3 px-6 py-8 rounded-lg text-[#49505b] bg-white shadow-lg'>
           <div className='flex flex-row items-center mb-6'>
             <div className='flex items-center w-10 h-10 mr-4 rounded-full overflow-hidden border-2 border-white'>
               <img src="/images/image-kira.jpg" alt="" />
