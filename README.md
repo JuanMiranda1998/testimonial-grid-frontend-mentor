@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/JuanMiranda1998/testimonial-grid-frontend-mentor)
+- Solution URL: [Github](https://github.com/JuanMiranda1998/testimonial-grid-frontend-mentor)
 
 
 ## My process
