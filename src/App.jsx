@@ -1,8 +1,4 @@
-import './App.css'
-
 function App() {
-
-
   return (
     <div className='max-w-[100vw] min-h-[100vlh] font-body overflow-hidden bg-[#edf2f8]'>
       <div className='grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-2 gap-6 mx-5 mt-16 mb-6 md:mt-6'>
